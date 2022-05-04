@@ -8,5 +8,6 @@ let pokemonList= [
     
     {name: 'Squirtle', height:'1\'08"', weight: '19.8 lbs', type:'water'},
     {name: 'Wartortle', height:'3\'03"', weight: '49.6 lbs', type:'water'},
+    {name: 'Blastoise', height:'5\'03"', weight: '188.5 lbs', type:'water'}
 
 ];
