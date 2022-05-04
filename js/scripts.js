@@ -6,5 +6,6 @@ let pokemonList= [
     {name: 'Charmeleon', height:'3\'07"', weight: '41.9 lbs', type:'fire'},
     {name: 'Charizard', height:'5\'07"', weight: '199.5 lbs', type:['fire', 'flying']},
     
+    {name: 'Squirtle', height:'1\'08"', weight: '19.8 lbs', type:'water'},
 
 ];
