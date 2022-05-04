@@ -4,6 +4,7 @@ let pokemonList= [
     {name: 'Venusaur', height:'6\'07"' , weight: '220.5 lbs' , type:['grass', 'poison'] },
     {name: 'Charmander', height:'2\'00"', weight: '18.7 lbs' , type:'fire'},
     {name: 'Charmeleon', height:'3\'07"', weight: '41.9 lbs', type:'fire'},
+    {name: 'Charizard', height:'5\'07"', weight: '199.5 lbs', type:['fire', 'flying']},
     
 
 ];
