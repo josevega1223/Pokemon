@@ -10,3 +10,13 @@ let pokemonList= [
     {name: 'Blastoise', height:5.03, weight: 188.5 , type:'water', number:'#009'}
 
 ];
+
+for (let i=0; i < pokemonList.length; i++){
+    if(pokemonList[i].height>5.0){
+        console.log(pokemonList[i].name + ' is a big Pokemon!');
+    }else if (pokemonList[i].height>2.5 && pokemonList[i].height<5.0){
+        console.log(pokemonList[i].name + ' is an average Pokemon.');
+    }else{
+        console.log(pokemonList[i].name + ' is a small Pokemon.');
+    }
+}
