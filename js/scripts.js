@@ -13,11 +13,13 @@ let pokemonList= [
 ];
 
 for (let i=0; i < pokemonList.length; i++){
+    document.write(`${pokemonList[i].name} (height: ${pokemonList[i].height})`);
     if(pokemonList[i].height>5.0){
-        document.write(pokemonList[i].name + ' is a big Pokemon!');
+        document.write(' is a big Pokemon!');
     }else if (pokemonList[i].height>2.5 && pokemonList[i].height<5.0){
-        document.write(pokemonList[i].name + ' is an average Pokemon.');
+        document.write(' is an average Pokemon.');
     }else{
-        document.write(pokemonList[i].name + ' is a small Pokemon.');
+        document.write(' is a small Pokemon.');
     }
+    document.write('<br>');
 }
