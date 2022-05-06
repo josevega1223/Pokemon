@@ -1,0 +1,17 @@
+body{
+    background-color: #FF0000;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+#title{
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+
+.pokeball{
+    display: inline-block; 
+}
