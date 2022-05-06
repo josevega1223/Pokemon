@@ -1,3 +1,4 @@
+//Pokemon List with keys
 let pokemonList= [
     {name: 'Bulbasaur', height:2.04 , weight: 15.2 , type:['grass','poison'], number:'#001' },
     {name: 'Ivysaur', height:3.03 , weight: 28.7 , type:['grass', 'poison'], number:'#002' },
