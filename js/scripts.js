@@ -12,6 +12,20 @@ let pokemonList= [
     {name: 'Blastoise', height:5.03, weight: 188.5 , type:'water', number:'#009'}
 
 ];
+  
+      function add (pokemon) {
+        pokemonList.push(pokemon);
+      }
+      
+      function getAll() {
+        return pokemonList;
+      }
+    return{
+        add: add,
+        getAll: getAll
+    };
+  })();
+  
 
 pokemonList.forEach(function(pokemon){
     document.write(pokemon.name + ' (height: ' + pokemon.height + ') ');
