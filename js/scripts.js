@@ -18,7 +18,9 @@ let repository= [
           typeof pokemon === "object" &&
           "name" in pokemon &&
           "height" in pokemon &&
-          "types" in pokemon
+          "weight" in pokemon &&
+          "type" in pokemon &&
+          "number" in pokemon
         ) {
         repository.push(pokemon);
       }else {
