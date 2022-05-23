@@ -31,4 +31,11 @@ body{
     color: black;
     border: 2px solid black;
     font-family: 'Press Start 2P', cursive;
+    transition: 0.4s opacity, 0.4s font-size;
 }
+
+.button-class:hover{
+    cursor:pointer;
+    opacity: 0.8;
+    font-size: 20px;
+  }
