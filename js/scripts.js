@@ -38,6 +38,7 @@ let repository= [
         button.classList.add('button-class');
         listPokemon.appendChild(button);
         pokemonList.appendChild(listPokemon);
+        addEvent(button,pokemon);
       }
 
     return{
