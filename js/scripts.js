@@ -65,6 +65,12 @@ let apiUrl= 'https://pokeapi.co/api/v2/pokemon/?limit=150';
         });
       }
 
+      function showDetails(item){
+        pokemonRepository.loadDetails(item).then(function(){
+        console.log(item);
+      });
+    }
+
 
     return{
         add: add,
