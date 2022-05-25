@@ -7,19 +7,16 @@ let apiUrl= 'https://pokeapi.co/api/v2/pokemon/?limit=150';
         if (
           typeof pokemon === "object" &&
           "name" in pokemon &&
-          "height" in pokemon &&
-          "weight" in pokemon &&
-          "type" in pokemon &&
-          "number" in pokemon
+          "detailsUrl" in pokemon
         ) {
-        repository.push(pokemon);
+        pokemonList.push(pokemon);
       }else {
         console.log("pokemon is not correct");
       }
     }
       
       function getAll() {
-        return repository;
+        return pokemonList;
       }
 
       function addListItem(pokemon){
