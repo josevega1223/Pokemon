@@ -36,8 +36,37 @@ let apiUrl= 'https://pokeapi.co/api/v2/pokemon/?limit=150';
         });
       }
 
-      function showDetails(pokemon){
-        console.log(pokemon);
+      
+      function loadList(){
+        return fetch(apiUrl).then(function(response) {
+          return response.json();
+        }).then(function(json){
+          json.results.forEach(function(item){
+            let pokemon = {
+              name: item.name,
+              detailsUrl: item.url 
+            };
+            add(pokemon);
+            console.log(pokemon);
+          });
+        }).catch(function(e){
+          console.error(e);
+        })
+      }
+
+      function loadDetails(item){
+        let url= item.detailsUrl;
+        return fetch(url).then(function(response){
+          return response.json();
+        }).then(function(details){
+          item.imageUrlFront= details.sprites.front_default;
+          item.imageUrlBack= details.sprites.back_default;
+          item.height= details.height;
+          item.weight=details.weight;
+          item.types= details.types;
+        }).catch(function(e){
+          console.error(e);
+        });
       }
 
 
