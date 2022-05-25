@@ -27,11 +27,7 @@ let apiUrl= 'https://pokeapi.co/api/v2/pokemon/?limit=150';
         button.classList.add('button-class');
         listPokemon.appendChild(button);
         pokemonList.appendChild(listPokemon);
-        addEvent(button,pokemon);
-      }
-
-      function addEvent(button,pokemon){
-        button.addEventListener('click', function(){
+        button.addEventListener('click', function(event){
           showDetails(pokemon);
         });
       }
@@ -73,7 +69,9 @@ let apiUrl= 'https://pokeapi.co/api/v2/pokemon/?limit=150';
     return{
         add: add,
         getAll: getAll,
-        addListItem:addListItem
+        addListItem:addListItem,
+        loadList: loadList,
+        loadDetails: loadDetails
     };
   })();
   
