@@ -29,8 +29,8 @@ body{
 }
 
 
-.pokeball{
-    display: inline-block; 
+li{
+    text-align: center;   
 }
 
 .button-class{
