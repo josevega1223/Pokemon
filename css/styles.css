@@ -60,4 +60,65 @@ li{
     cursor:pointer;
     opacity: 0.8;
     font-size: 20px;
+    color: #ffff;
   }
+
+  #modal-container{
+  display: none;
+  }
+
+  #modal-container.is-visible{
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    overflow: auto;
+    display: grid;
+    text-align: center;
+}
+
+  .modal{
+      margin: auto;
+      display: inline-block;
+      box-sizing:border-box;
+      background: #ffff;
+      padding: 15px;
+      width: 100%;
+      max-width: 700px;
+      text-align: left;
+  }
+
+  .modal-close{
+      float:right;
+      -webkit-appearance: none;
+      border:0;
+      background: none;
+      color: #777;
+      text-decoration: underline;
+  }
+
+  .modal-close:hover{
+    cursor: pointer;
+
+  }
+
+  @media all and (max-width: 500px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    ul {
+      margin: 2px auto;
+      padding: 0;
+    }
+  
+    .pokemon-button {
+      width: 80%;
+    }
+  }
+ 
