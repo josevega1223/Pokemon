@@ -9,6 +9,23 @@ body{
     height: 90px;
     white-space: nowrap;
     overflow-x: auto;
+    text-align: center;
+}
+
+.pokemon-list{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.loading-message{
+    margin: 20px 15%;
+    text-align: left;
+}
+
+.hidden{
+    display: none;
 }
 
 
