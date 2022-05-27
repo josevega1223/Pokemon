@@ -33,13 +33,17 @@ li{
     text-align: center;   
 }
 
+
 .button-class{
     background-color: darkgray;
-    border: none;
+    border-radius: 5px;
     color: black;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
+    text-transform: capitalize;
+    width: 300px;
+    height:auto;
     display:inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -49,6 +53,7 @@ li{
     border: 2px solid black;
     font-family: 'Press Start 2P', cursive;
     transition: 0.4s opacity, 0.4s font-size;
+    
 }
 
 .button-class:hover{
