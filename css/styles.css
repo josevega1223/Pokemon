@@ -58,7 +58,6 @@ li{
 
 .button-class:hover{
     cursor:pointer;
-    opacity: 0.8;
     font-size: 20px;
     color: #ffff;
   }
