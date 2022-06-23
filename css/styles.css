@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Press Start 2P', cursive;
+  color: white;
 
 }
 
@@ -11,13 +12,6 @@ body{
     justify-content: center;  
 }
 
-.title{
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 0;
-  background-color:#3F485E ;
-}
 
 .pokemon-list{
     list-style-type: none;
