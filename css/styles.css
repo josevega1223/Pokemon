@@ -92,3 +92,20 @@ fieldset[disabled] .btn-custom.active {
   text-align: center;
 }
 
+.pokemon-sprite { 
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+#pokeball {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.pokemon-type {
+  text-transform: capitalize;
+}
+
+.page-container {
+  margin: 3px;
+}
