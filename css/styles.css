@@ -23,6 +23,10 @@ h1 {
   list-style-type: none;
   text-align: center;
 }
+.list-group-item {
+  background-color: #FF1E1F;
+  border: none;
+}
 
 .btn-custom {
   color: #fff;
@@ -60,7 +64,7 @@ fieldset[disabled] .btn-custom:active,
 .btn-custom.disabled.active,
 .btn-custom[disabled].active,
 fieldset[disabled] .btn-custom.active {
-  background-color: white;
+  background-color: #fff;
   border-color: none;
 }
 
