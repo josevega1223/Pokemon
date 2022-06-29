@@ -24,15 +24,20 @@ h1 {
   text-align: center;
 }
 
+.list-group-item{
+  background-color: #FF1E1F;
+  border: none;
+}
+
 .btn-custom {
-  color: #fff;
+  color: #000;
   background-color: #BBBBBB;
   border-color: black;
   border-width: 3px;
   text-transform: capitalize;
-  margin: 8px;
+  margin: 5px;
   max-width: 250px;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 .btn-custom:hover,
