@@ -48,7 +48,7 @@ let pokemonRepository = (function () {
       "col-11",
       "mx-auto"
     );
-    button.classList.add("list-group-item", "list-group-item-action");
+    listItem.classList.add("list-group-item");
     button.setAttribute("data-target", "#poke-modal");
     button.setAttribute("data-toggle", "modal");
     listItem.appendChild(button);
